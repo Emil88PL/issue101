@@ -1,0 +1,34 @@
+
+
+I will record all issues i have so in future i can come back to them
+
+#######################################
+
+I can't refresh icon in:
+<link rel="icon" href="icon.png"/>
+
+Solution to add:
+" ?v=2 "
+<link rel="icon" href="icon.png?v=2"/>
+
+########################################
+
+GitHUB pages dosen't show page on REACT
+
+add to package.json:
+
+"homepage": "*your.gh-page.link.goes.here*/",
+
+#########################################
+
+bootstrap not styling
+
+npm install --save bootstrap
+
+import 'bootstrap/dist/css/bootstrap.css';
+
+
+
+#########################################
+
+translate-middle-y
