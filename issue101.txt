@@ -58,5 +58,15 @@ Then run:
 Find out more about deployment here:
 
   https://cra.link/deployment
-
+#############################################
+JAVA - Spring Boot - h2 database console
+Database "C:/Users/XXXX" not found
+- Using Generic H2 (Embedded)
+1. application.properties file with:
+"spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect"
+2. If is still not working - copy "jdbc:h2:mem:testdb" to "JDBC URL: jdbc:h2:mem:testdb"
 
