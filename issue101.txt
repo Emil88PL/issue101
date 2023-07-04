@@ -70,4 +70,8 @@ spring.datasource.username=sa
 spring.datasource.password=
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect"
 2. If is still not working - copy "jdbc:h2:mem:testdb" to "JDBC URL: jdbc:h2:mem:testdb"
+3. Add "<dependency>
+  		  <groupId>org.springframework.boot</groupId>
+   		 <artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>"
 
