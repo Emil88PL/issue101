@@ -59,6 +59,7 @@ Find out more about deployment here:
 
   https://cra.link/deployment
 #############################################
+https://www.javatpoint.com/spring-boot-h2-database
 JAVA - Spring Boot - h2 database console
 Database "C:/Users/XXXX" not found
 - Using Generic H2 (Embedded)
